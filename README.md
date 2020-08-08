@@ -1,6 +1,6 @@
 # Deployable Sentiment Analysis model
 
-This repo is for developing a sentiment analysis model that can be deployed using a Flask application. 
+This repository contains code for a sentiment analysis model that can be deployed using a Flask application. 
 This project is an extension of the [ComputeFest 2020- "Notebook to Cloud" workshop](https://github.com/Harvard-IACS/2020-ComputeFest).
 
 ## Steps
@@ -40,7 +40,4 @@ This project is an extension of the [ComputeFest 2020- "Notebook to Cloud" works
 2. Model is loaded every time a prediction needs to be made. It should only need to be loaded once when the application starts up.
 
 ## Future work
-1. There will be a single Docker container that will serve as an endpoint. Prediction will be served from this endpoint.
-2. I want to add a container that controls a GUI.
-3. I want to add a container that runs a SQL database that will store previous queries to the model and the results.
-
+Dockerizing this application, so that one Docker container controls the GUI and another container serves the `/predict` endpoint, is done in (this repo)[https://github.com/bhavenp/docker_sentiment_analysis].
