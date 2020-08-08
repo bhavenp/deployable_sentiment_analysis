@@ -40,4 +40,4 @@ This project is an extension of the [ComputeFest 2020- "Notebook to Cloud" works
 2. Model is loaded every time a prediction needs to be made. It should only need to be loaded once when the application starts up.
 
 ## Future work
-Dockerizing this application, so that one Docker container controls the GUI and another container serves the `/predict` endpoint, is done in (this repo)[https://github.com/bhavenp/docker_sentiment_analysis].
+Dockerizing this application, so that one Docker container controls the GUI and another container serves the `/predict` endpoint, is done in [this repo](https://github.com/bhavenp/docker_sentiment_analysis).
